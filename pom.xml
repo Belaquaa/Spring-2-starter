@@ -51,7 +51,7 @@
   <distributionManagement>
     <repository>
       <id>local-repo</id> <!-- Идентификатор репозитория, может быть любым -->
-      <url>file://C:\Users\Belaquaa\Desktop\repo</url> <!-- Путь к локальному репозиторию -->
+      <url>file://${user.home}/.m2/repository</url> <!-- Путь к локальному репозиторию -->
     </repository>
   </distributionManagement>
 </project>
