@@ -31,11 +31,13 @@
    </dependency>
 
 2. **Настройте свойства в application.properties или application.yml:**
+   ```
    income.url=http://example.com/income
    income.client.enabled=true
+   ```
 
 4. **Используйте IncomeClient в вашем коде:**
-   ```
+   ```java
    @Autowired
    private IncomeClient incomeClient;
 
