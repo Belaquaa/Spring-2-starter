@@ -35,6 +35,7 @@
    income.client.enabled=true
 
 4. **Используйте IncomeClient в вашем коде:**
+   ```
    @Autowired
    private IncomeClient incomeClient;
 
@@ -42,4 +43,4 @@
      double annualIncome = incomeClient.getAnnualIncome(userId);
      System.out.println("Annual income: " + annualIncome);
    }
-
+   ```
